@@ -1,0 +1,111 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page background */
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Centered login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Title Styling */
+.login-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form container */
+.login-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input field group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input feedback styling */
+.form-feedback {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Input field styling */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Focused input field styling */
+.login-input:focus {
+  border-color: #00bcd4;
+}
+
+/* Submit button styling */
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #00bcd4;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0097a7;
+}
+
+/* Signup link container */
+.signup-link-container {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Link text styling */
+.signup-link {
+  color: #333;
+}
+
+.signup-link-text {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.signup-link-text:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+/* About.css */
+
+.about-header {
+  padding: 30px 0;
+  background-color: #fbe9e7; /* subtle blood-tone */
+  color: #c62828; /* deep red */
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid #c62828;
+}
+
+.about-container {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-container p {
+  margin-bottom: 20px;
+}
+
+.about-container ul {
+  list-style: disc;
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+
+.about-container li {
+  margin-bottom: 10px;
+}
+
+.about-container strong {
+  color: #1565c0;
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+}

@@ -1,0 +1,107 @@
+/* --- Carousel Section --- */
+.custom-carousel {
+  margin: 30px auto;
+  max-width: 90%;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.carousel-item-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.carousel-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.carousel-description {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* --- Benefits Card --- */
+.benefits-card {
+  margin: 40px auto;
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.benefits-card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #00bcd4;
+  color: white;
+  padding: 15px;
+  border-radius: 4px 4px 0 0;
+}
+
+.benefits-list-item {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-size: 1.1rem;
+}
+
+/* --- Events Carousel --- */
+.events-carousel {
+  margin: 50px auto;
+  max-width: 1000px;
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card-container {
+  text-align: left;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-left: 4px solid #2196f3;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.event-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.event-details p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* --- Info Card Section --- */
+.info-card {
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.info-card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ff5722;
+  color: white;
+  padding: 15px;
+  border-radius: 4px 4px 0 0;
+}
+
+.info-card .card-body {
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
